@@ -2,8 +2,12 @@
     margin: 10px;
 }
 
+header {
+    color: blueviolet;
+}
+
 a {
-  font-size: 24px;  
+    font-size: 24px;
 }
 
 
@@ -19,8 +23,22 @@ a {
     color: blue;
 }
 
-.red, .green, .blue {
-    font-size: 30px;
+
+
+.test-box {
+    box-sizing: content-box;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 20px solid #212121;
+    background-color: black;
+}
+
+.red,
+.green,
+.blue {
+    font-size: 23px;
     text-decoration: underline;
 }
 
@@ -39,7 +57,7 @@ a {
 }
 
 .down-color {
-    background-color: darkblue;
+    background-color: rgb(14, 119, 238);
     color: black;
 }
 
@@ -47,4 +65,20 @@ a {
 .footcolor {
     background-color: teal;
     color: tomato;
+}
+
+#hrefcolor {
+    color: rgb(221, 16, 16);
+}
+
+.test-inline2 {
+    background-color: teal;
+}
+
+.dispaytest li {
+    display: inline-block; 
+}
+
+.test-inline a:hover {
+    color: crimson;
 }
